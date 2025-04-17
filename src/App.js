@@ -4,6 +4,7 @@ import { FuncComponent } from "./FuncComponent";
 import ClassComonent from "./ClassComponent";
 import JSX from "./JSX";
 import ClickEvent from "./ClickEvent";
+import StateInFunctionalComponent from "./StateInFunctionalComponent";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 
       <JSX />
       <ClickEvent />
+      <StateInFunctionalComponent />
       {/* <FuncComponent />
       <FuncComponent />
       <FuncComponent /> */}
