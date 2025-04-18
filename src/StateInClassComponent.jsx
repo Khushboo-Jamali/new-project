@@ -17,7 +17,7 @@ import React, {Component} from 'react';
   render (){
     return(
         <>
-        <h2>State In Class Component {this.state.name}</h2>
+        <h3>State In Class Component {this.state.name}</h3>
         <button onClick={()=>this.updateName()}>Click Me</button>
         </>
     )

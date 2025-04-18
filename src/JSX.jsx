@@ -3,7 +3,7 @@ import React from "react";
 export default function JSX() {
   return (
     <div>
-      <h1>JSX : Javascript and XML (JSX) 10 + 10 = {10 + 10}</h1>
+      <h3>JSX : Javascript and XML (JSX) 10 + 10 = {10 + 10}</h3>
     </div>
   );
 

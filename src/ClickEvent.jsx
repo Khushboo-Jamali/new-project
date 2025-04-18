@@ -8,7 +8,7 @@ export default function ClickEvent() {
     }
   return (
     <>
-    <h2>{firstName} 🤔</h2>
+    <h3>{firstName} 🤔</h3>
     <button onClick={sayHello}>Click me </button>
     {/* <button onClick={()=>alert('hello world')}>Click me </button> */}
 

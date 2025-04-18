@@ -21,7 +21,7 @@ export default function StateInFunctionalComponent() {
     console.log('rendering');
   return (
     <> 
-    <h2>{name}</h2>
+    <h3>{name}</h3>
     <button onClick={updateName}>Click me</button>
     </>
   )
