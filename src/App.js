@@ -9,6 +9,7 @@ import StateInClassComponent from "./StateInClassComponent";
 import PropsInFunctionalComponent from "./PropsInFunctionalComponent";
 import { useState } from "react";
 import PropsInClassComponent from "./PropsInClassComponent";
+import { GetInputFieldValue } from "./GetInputFieldValue";
 
 function App() {
   const [realName, setName] = useState("Kim");
@@ -30,6 +31,8 @@ function App() {
         <button onClick={() => setValueName("Ali Khan")}>Click me</button>
         <PropsInClassComponent name={"Hamza"} email={"Hamza@gmail.com"} />
         <PropsInClassComponent name={"Ayesha"} email={"Ayesha@gmail.com"} />
+
+        <GetInputFieldValue />
 
         {/* <PropsInFunctionalComponent
         name={"Kim"}
